@@ -1,0 +1,2 @@
+# SoccerNews
+guided project
