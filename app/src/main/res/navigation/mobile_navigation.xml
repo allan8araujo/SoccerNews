@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_news">
+
+    <fragment
+        android:id="@+id/fragmentFavorites"
+        android:name="com.example.soccernews.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.soccernews.NewsFragment"
+        android:label="fragment_news_fragments"
+        tools:layout="@layout/fragment_news_fragments" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.soccernews.MainActivity"
+        android:label="MainActivity" />
+</navigation>
